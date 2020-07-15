@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Final Project</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech2020</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&family=Shadows+Into+Light+Two&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/154b02d75f.js" crossorigin="anonymous"></script>
+</head>
+
+
+<body>
+    <header>
+        <div class="container">
+            <div class="menu">
+                <ul>
+                    <li class="logo"><img src="img\diamond.png"></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html" class="active">Services</a></li>
+                    <li>Product</li>
+                    <li>Contact</li>
+                    <li><a href="sign-up-form.html" class="singup-btn" class="active"><span>Sign Up</span></a></li>
+                    <li><a href="sign_in.html" class="singup-btn"><span> Or Sign In</span></a></li>
+                </ul>
+            </div>
+    </header>
+
+    <!-- Play BTN AND TEXT -->
+
+    <center>
+        <h2>Sign Up Form</h2>
+    </center>
+
+    <form action="#">
+
+        <div>
+            <label for="title" class="label-style">Title:</label>
+            <select id="title">
+                <option>Select Your Title</option>
+                <option>---------------------</option>
+                <option value="mr">Mr.</option>
+                <option value="mrs">Mrs.</option>
+                <option value="dr">Dr.</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="fname" class="label-style">First Name:</label>
+            <input type="text" id="fname" placeholder="Enter Your First Name.">
+        </div>
+
+        <div>
+            <label for="lname" class="label-style">Last Name:</label>
+            <input type="text" id="lname" placeholder="Enter your Last Name.">
+        </div>
+
+        <div>
+            <label for="email" class="label-style">Email Address:</label>
+            <input type="email" id="email" required>
+        </div>
+
+        <div>
+            <label for="email-confirm" class="label-style">Confirm Email Address:</label>
+            <input type="email" id="email-confirm" required>
+        </div>
+
+        <div>
+            <label for="pw" class="label-style">Enter Password:</label>
+            <input type="password" id="pw" required>
+        </div>
+
+        <div>
+            <label for="pw2" class="label-style">Re-Enter Password:</label>
+            <input type="password" id="pw2" required>
+        </div>
+
+        <div>
+            <span class="label-style">Select Your Gender:</span>
+
+            <input type="radio" name="gender" id="male">
+            <label for="male">Male</label>
+
+
+            <input type="radio" name="gender" id="female">
+            <label for="female">Female</label>
+
+            <input type="radio" name="gender" id="other">
+            <label for="other">Other</label>
+        </div>
+
+        <div>
+            <label for="how-did-you-hear" class="label-style">How Did You Hear About Us?</label>
+            <textarea id="how-did-you-hear" cols="30" rows="7" placeholder="Enter your comments..."></textarea>
+        </div>
+
+
+        <div>
+            <input type="checkbox" id="accept-terms" required>
+            <label for="accept-terms">Accept our <a href="#">terms and conditions</a> Lorem ipsum dolor sit amet,
+                consectetur adipisicing elit.<br>Dignissimos velit quaerat aliquid inventore repudiandae facilis
+                eaque
+                ut
+                adipisci vitae,<br>unde quos voluptates a asperiores libero magni sequi tempore pariatur
+                iusto.</label>
+
+        </div>
+
+
+        <div>
+            <input type="checkbox" id="mailing-list" checked>
+            <label for="mailing-list">Subscribe to our mailing list.</label>
+        </div>
+
+        <div>
+            <div class="label-style"></div>
+            <input type="submit" value="Sign Up Now!">
+        </div>
+    </form>
+
+
+
+
+
+
+
+    <!-- QUICK LINKS START -->
+    <div class="quick-links">
+        <ul>
+            <li><i class="fas fa-share-alt"></i>
+                <p>SHARE TO</p>
+            </li>
+            <li><i class="fas fa-cog"></i>
+                <p>ANALYTICS</p>
+            </li>
+            <li><i class="fas fa-audio-description"></i>
+                <p>RECENT NEWS</p>
+            </li>
+        </ul>
+    </div>
+
+
+    <!-- SOCIAL ICONS START -->
+    <div class="social-icons">
+        <ul>
+            <li><a href="https://www.facebook.com"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="https://twitter.com"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="https://www.linkedin.com"><i class="fab fa-linkedin"></i></a></li>
+            <li><a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a></li>
+        </ul>
+    </div>
+</body>
+
+</html>
